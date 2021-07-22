@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center; } 
+#image1 {
+    margin-top: 200px;
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%; }
+#welcome {
+    position:absolute;
+    height: 700px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    
+}
+.menu{
+    list-style:none;
+   background: white; 
+ font-family:cursive;
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    top: 0px;
+    
+    z-index: 10;
+    cursor:pointer;
+}
+.link{
+    
+    display: inline;
+    color:red;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.contact h3{
+    display: inline;
+}
